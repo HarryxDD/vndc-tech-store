@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+
+   #RewriteEngine On
+
+   #RewriteCond %{REQUEST_FILENAME}  -f [OR]
+   #RewriteCond %{REQUEST_FILENAME} !-f
+   #RewriteRule ^(.*)$ login.php [L,QSA]
+
+   RewriteEngine On
+   RewriteBase /
+   RewriteRule ^login\.php$ - [L]
+   RewriteCond %{REQUEST_FILENAME} !-f
+   RewriteCond %{REQUEST_FILENAME} !-d
+   RewriteRule . /login.php [L]
+</IfModule>

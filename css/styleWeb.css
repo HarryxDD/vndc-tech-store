@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap" rel="stylesheet');
+.font-baloo {
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+.font-rale {
+  font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+  font-family: "Rubik", cursive;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.color-primary {
+  color: #8e44ad;
+}
+
+.color-primary-bg {
+  background: #8e44ad;
+}
+
+.color-second {
+  color: #a1a1a1;
+}
+
+.color-second-bg {
+  background: #a1a1a1;
+}
+
+.color-orange {
+  color: #f39c12;
+}
+
+.color-orange-bg {
+  background: #f39c12;
+}
+
+.color-white-bg {
+  background: #fff;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-black {
+  color: #333;
+}
+
+
+/*# sourceMappingURL=styleWeb.css.map */
